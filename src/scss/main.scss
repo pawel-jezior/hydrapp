@@ -1,13 +1,49 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: $bgColor;
+  color: $appTitleColor;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.button {
+  width: 200px;
+  height: 80px;
+  border: 0 solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.buttons,
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main__button-add {
+  background: $addButtonColor;
+  color: $textInAddButtonColor;
+  margin-top: 50px;
+}
+
+.main__button-subtract {
+  background: $subtractButtonColor;
+  color: $textInSubtractButtonColor;
+}
+
+.main__counter {
+  color: $counterColor;
+  font-size: 40px;
+  margin-top: -120px;
 }
