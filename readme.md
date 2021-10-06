@@ -1,4 +1,4 @@
-![cover](pwa/apple-icon-180.png)
+![cover](src/assets/img/gh.PNG)
 
 # HYDRAPP
 PWA project, where I used:
